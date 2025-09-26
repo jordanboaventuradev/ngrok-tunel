@@ -1,0 +1,19 @@
+{
+  "name": "ngrok-tunnel-app",
+  "version": "1.0.0",
+  "description": "Aplicação simples para criar túnel ngrok para endpoints locais",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["ngrok", "tunnel", "local", "endpoint"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ngrok": "^5.0.0-beta.2",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "chalk": "^4.1.2"
+  }
+}
